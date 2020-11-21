@@ -1,0 +1,30 @@
+h1{
+    color:rgb(5, 78, 161);
+    font-family: verdana;
+    font-size: 5em;
+    text-align: center;
+}
+h2{
+    color:rgb(90, 88, 88);
+    font-family: verdana;
+    font-size: 3em;
+    text-align: center;
+}
+#buttonStartAdding{
+    color:rgb(90, 88, 88);
+    background-color:rgb(168, 110, 2);
+    border-radius: 50%;
+    border: 3px solid rgb(255, 92, 71);
+    width: 150px;
+    padding: 15px;
+    float: left;
+}
+#buttonStartDiscounting{
+    color:rgb(90, 88, 88);
+    background-color: rgb(255, 92, 71);
+    border-radius: 50%;
+    border: 3px solid rgb(168, 110, 2);
+    width: 150px;
+    padding: 15px;
+    float: left;
+}

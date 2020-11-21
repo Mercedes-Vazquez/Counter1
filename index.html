@@ -1,16 +1,16 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <title>Meter</title>
+    <title>Counter</title>
 </head>
 
 <body>
     
-    <h1>Meter</h1>
+    <h1>Counter</h1>
     <button onClick="increment()" >Start adding</button>
     <button onClick="decrement()" >Start discounting</button>
 
@@ -18,21 +18,26 @@
     <script src="./index.js" ></script>
 </body>
 
-</html>
+</html> -->
 
-<!-- <!DOCTYPE html>
+
+<!DOCTYPE html>
 <html>
 <body>
 
-<h1>A Web Page</h1>
-<p id="demo">A Paragraph</p>
-<button type="button" onclick="myFunction()">Try it</button>
+<h1>Counter</h1>
+<p>JavaScript can access an element with a specified id by using the getElementById() method:</p>
+
+<h2 id="myNumber">0</h2>
+<button onclick="displayResult()">Start</button>
 
 <script>
-function myFunction() {
-  document.getElementById("demo").innerHTML = "Paragraph changed.";
+i= 0
+i++
+function displayResult() {
+  document.getElementById("myNumber").innerHTML = i++;
 }
 </script>
 
 </body>
-</html> -->
+</html>

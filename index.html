@@ -26,16 +26,21 @@
 <body>
 
 <h1>Counter</h1>
-<p>JavaScript can access an element with a specified id by using the getElementById() method:</p>
 
 <h2 id="myNumber">0</h2>
-<button onclick="displayResult()">Start</button>
 
+<button onclick="displayResultAdd()">Start adding</button>
+<button onclick="displayResultDiscount()">Start discounting</button>
 <script>
 i= 0
-i++
-function displayResult() {
-  document.getElementById("myNumber").innerHTML = i++;
+
+function displayResultAdd() {
+
+  document.getElementById("myNumber").innerHTML = ++i;
+}
+
+function displayResultDiscount() {
+  document.getElementById("myNumber").innerHTML = --i;
 }
 </script>
 

@@ -1,7 +1,6 @@
 let i= 0
     
 function displayResultAdd() {
-    
     document.getElementById("myNumber").innerHTML = ++i;
     }
     

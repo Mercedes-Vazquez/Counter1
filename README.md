@@ -4,7 +4,7 @@ As the name suggests the project is a tool for adding and discounting numbers to
 ## TECHNOLOGIES USED
 Visual Studio Code as the code editor,
 JavaScript for functionality,
-HTML for structuring how the web page elemnts are displayed,
+HTML for structuring how the web page elements are displayed,
 CSS for giving style to the elements displayed on the web page
 ## CODE EXAMPLES
 `let i= 0
